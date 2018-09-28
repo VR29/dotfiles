@@ -72,6 +72,9 @@ bindsym $mod+h split h
 # split in vertical orientation
 bindsym $mod+v split v
 
+# lock screen
+bindsym $mod+Shift+x exec i3lock-fancy -- scrot -z
+
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
 
@@ -165,6 +168,8 @@ bindsym $mod+r mode "resize"
 # brightness settings:
 bindsym XF86MonBrightnessUp exec "xbacklight +10"
 bindsym XF86MonBrightnessDown exec "xbacklight -10"
+bindsym XF86AudioRaiseVolume exec pulseaudio-ctl up
+bindsym XF86AudioLowerVolume exec pulseaudio-ctl down
 
 
 # start polybar
@@ -217,7 +222,7 @@ mode "$mode_gaps_outer" {
 exec_always --no-startup-id "killall -q compton; compton --config ~/.config/compton/config"
 
 
-exec --no-startup-id feh --bg-fill ~/Pictures/Wallpaper/Wallpaper.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpaper/Wallpaper.jpg
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
