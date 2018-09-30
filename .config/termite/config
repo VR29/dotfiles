@@ -6,37 +6,38 @@ foreground_bold = #9ea7a6
 cursor          = #9ea7a6
 background      = rgba(35, 44, 49, 0.9)
 
+
 # black
-color0  = #232c31
-color8  = #3f4944
+color0  = #263238
+color8  = #37474f
 
 # red
-color1  = #2a5491
-color9  = #2a5491
+color1  = #ff9800
+color9  = #ffa74d
 
 # green
-color2  = #237986
-color10 = #237986
+color2  = #8bc34a
+color10 = #9ccc65
 
 # yellow
-color3  = #a03b1e
-color11 = #a03b1e
+color3  = #ffc107
+color11 = #ffa000
 
 # blue
-color4  = #484d79
-color12 = #484d79
+color4  = #03a9f4
+color12 = #81d4fa
 
 # magenta
-color5  = #c59820
-color13 = #c59820
+color5  = #e91e63
+color13 = #ad1457
 
 # cyan
-color6  = #b02f30
-color14 = #b02f30
+color6  = #009688
+color14 = #26a69a
 
 # white
-color7  = #9ea7a6
-color15 = #b5d8f6
+color7  = #cfd8dc
+color15 = #eceff1
 
 [options]
 font = Source Code Pro 11 
