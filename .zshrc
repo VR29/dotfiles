@@ -67,6 +67,7 @@ plugins=(
   zsh-autosuggestions
   vi-mode
   python
+  sudo
 )
 
 source $ZSH/oh-my-zsh.sh
