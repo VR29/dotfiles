@@ -32,6 +32,9 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec termite
 
+# start firefox
+bindsym $mod+q exec firefox
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
