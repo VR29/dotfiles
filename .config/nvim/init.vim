@@ -53,6 +53,9 @@ Plug 'majutsushi/tagbar'
 " Search results counter
 Plug 'vim-scripts/IndexedSearch'
 
+" vimtex
+Plug 'lervag/vimtex'
+
 " Terminal Vim with 256 colors colorscheme
 Plug 'fisadev/fisa-vim-colorscheme'
 
@@ -350,3 +353,6 @@ let g:airline#extensions#whitespace#enabled = 0
 "let g:airline_symbols.readonly = '⭤'
 "let g:airline_symbols.linenr = '⭡'
 
+" LaTeX
+let g:tex_flavor = 'latex'
+let g:vimtex_view_method = 'zathura'

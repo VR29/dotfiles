@@ -423,6 +423,7 @@ format-prefix = " "
 format = <label>
 exec = python ~/.config/polybar/polybar-spotify/spotify_status.py -f '{artist}: {song}' 
 click-left = exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
+click-right = exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next
 ;format-underline = #1db954
 
 ; vim:ft=dosini
